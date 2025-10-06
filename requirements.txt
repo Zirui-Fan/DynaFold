@@ -1,0 +1,15 @@
+torch==2.7.0
+numpy==1.26.4
+scipy==1.14.1
+scikit-learn==1.5.2
+pandas==2.2.3
+mdtraj==1.10.3
+matplotlib==3.9.2
+seaborn==0.13.2
+tqdm==4.66.6
+pyyaml==6.0.2
+einops==0.8.1
+einx==0.3.0
+h5py==3.11.0
+esm==3.0.7
+python-dateutil==2.9.0.post0
