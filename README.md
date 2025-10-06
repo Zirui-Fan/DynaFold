@@ -36,7 +36,7 @@ DynaFold is a latent diffusion framework comprising a unified protein all-atom s
 For models trained by Fast Folding dataset, we employed leave-one-out cross-validation (LOOCV) for evaluation. Therefore, there will be a model weight file with the same name as the test protein within FastFolding-suffix weights folders.
 | Model Name | Download Link |
 |------------|--------------|
-| DynaFold-FS-ATLAS | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-FS-ATLAS.pth] |
+| DynaFold-FS-ATLAS | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-FS-ATLAS.pth |
 | DynaFold-FS-FastFolding | https://huggingface.co/Zirui-Fan/DynaFold/tree/main/weights/DynaFold-FS-FastFolding |
 | DynaFold-CT | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-CT.pth |
 | DynaFold-ES-Pretrain | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-ES-Pretrain.pth |
