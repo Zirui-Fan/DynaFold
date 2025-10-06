@@ -25,23 +25,23 @@ pip install -r requirements.txt
 
 ## Model Weights
 
-DynaFold is a latent diffusion framework comprising a unified protein all-atom structure Variational Autoencoder (VAE) and various Latent Denoising Models (LDTs) tailored for different tasks. We name the model weights as **DynaFold-{task type}**, where **forward simulation**, **conformational transition** and **ensemble** tasks are abbreviated as **FS**, **CT** and **ES** respectively. For the same task trained on different datasets, the dataset name will also be appended to the suffix. For DynaFold, model weights of VAE encoder, VAE decoder and [ESM2 650M](https://github.com/facebookresearch/esm) are indispensable. A repository containing all required model weights can be accessed at: [https://huggingface.co/Zirui-Fan/DynaFold].
+DynaFold is a latent diffusion framework comprising a unified protein all-atom structure Variational Autoencoder (VAE) and various Latent Denoising Models (LDTs) tailored for different tasks. We name the model weights as **DynaFold-{task type}**, where **forward simulation**, **conformational transition** and **ensemble** tasks are abbreviated as **FS**, **CT** and **ES** respectively. For the same task trained on different datasets, the dataset name will also be appended to the suffix. For DynaFold, model weights of VAE encoder, VAE decoder and [ESM2 650M](https://github.com/facebookresearch/esm) are indispensable. A repository containing all required model weights can be accessed at: https://huggingface.co/Zirui-Fan/DynaFold.
 
 ### VAE Weights
 | Model Name | Download Link |
 |------------|--------------|
-| Encoder | [https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/encoder.pth] |
-| Decoder | [https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/decoder.pth] |
+| Encoder | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/encoder.pth |
+| Decoder | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/decoder.pth |
 ### LDT Weights
 For models trained by Fast Folding dataset, we employed leave-one-out cross-validation (LOOCV) for evaluation. Therefore, there will be a model weight file with the same name as the test protein within FastFolding-suffix weights folders.
 | Model Name | Download Link |
 |------------|--------------|
-| DynaFold-FS-ATLAS | [https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-FS-ATLAS.pth] |
-| DynaFold-FS-FastFolding | [https://huggingface.co/Zirui-Fan/DynaFold/tree/main/weights/DynaFold-FS-FastFolding] |
-| DynaFold-CT | [https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-CT.pth] |
-| DynaFold-ES-Pretrain | [https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-ES-Pretrain.pth] |
-| DynaFold-ES-ATLAS | [https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-ES-ATLAS.pth] |
-| DynaFold-ES-FastFolding | [https://huggingface.co/Zirui-Fan/DynaFold/tree/main/weights/DynaFold-ES-FastFolding] |
+| DynaFold-FS-ATLAS | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-FS-ATLAS.pth] |
+| DynaFold-FS-FastFolding | https://huggingface.co/Zirui-Fan/DynaFold/tree/main/weights/DynaFold-FS-FastFolding |
+| DynaFold-CT | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-CT.pth |
+| DynaFold-ES-Pretrain | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-ES-Pretrain.pth |
+| DynaFold-ES-ATLAS | https://huggingface.co/Zirui-Fan/DynaFold/blob/main/weights/DynaFold-ES-ATLAS.pth |
+| DynaFold-ES-FastFolding | https://huggingface.co/Zirui-Fan/DynaFold/tree/main/weights/DynaFold-ES-FastFolding |
 ## Inference
 ### Forward Simulations and Ensembles
 
