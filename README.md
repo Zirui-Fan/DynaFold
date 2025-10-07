@@ -21,6 +21,7 @@ cd DynaFold
 conda create -n dynafold python=3.12.10
 conda activate dynafold
 pip install -r requirements.txt
+pip install python-dateutil
 ```
 
 ## Model Weights
