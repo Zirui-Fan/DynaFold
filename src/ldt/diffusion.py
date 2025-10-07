@@ -4,7 +4,6 @@ import tqdm
 import pickle
 import numpy as np
 import torch
-import matplotlib.pyplot as plt
 import logging
 
 logger = logging.getLogger(__name__)
